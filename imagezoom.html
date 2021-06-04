@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image zoom</title>
+    <style>
+        .container{
+            width: 100%;
+            display: flex;
+            flex: wrap;
+        }
+        .gallary{
+            height: 300px;
+            width: 300px;
+            border: 2px solid red;
+            overflow: hidden;
+            margin: 5px;
+          
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            transition: all 3s;
+        }
+        .gallary:hover img{
+            transform: scale(1.9);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gallary">
+            <img src="images/c.jpg"alt="c.jpg">
+        </div>
+        <div class="gallary">
+            <img src="images/2.jpg"alt="2.jpg">
+        </div>
+        <div class="gallary">
+            <img src="images/3.jpg"alt="3.jpg">
+        </div>
+        <div class="gallary">
+            <img src="images/4.jpg"alt="4.jpg">
+        </div>
+    </div>
+</body>
+</html>

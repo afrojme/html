@@ -6,7 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+      
+.header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+      .nav{
+            width: 100%;
+            background-color: dodgerblue;
+            text-align: right;
+            margin: 2px;
+        }
+        ul{
+           /* display: flex;*/
+        }
+        ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        ul li a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 20px;
+            display: inline;
+            text-transform: capitalize;
+        }
+        ul li:hover{
+          background-color: orange;
+            
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex: wrap;
+        }
+        .gallary{
+            height: 300px;
+            width: 300px;
+            border: 2px solid red;
+            overflow: hidden;
+            margin: 5px;
+          
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            transition: all 3s;
+        }
+        .gallary:hover img{
+            transform: scale(1.9);
+        }
         .Header{
             width: 100%;
             background-color: rgb(17, 116, 111);
@@ -17,6 +73,7 @@
             border: 3px solid rgb(31, 31, 80);
             border-color: rgb(173, 105, 16);
             color:white;
+            padding: auto;
             
             
 
@@ -29,7 +86,8 @@
             margin-top: 5px;
             border: 3px solid red;
             color:brown;
-            
+            padding: auto;
+            margin: 20px;
             
         }
         button{
@@ -46,6 +104,7 @@
             font-style: italic;
             border-image: 20px;
             border: 3px solid rebeccapurple;
+            padding: auto;
         
         }
         .img{
@@ -55,6 +114,7 @@
             padding: auto;
             font-size: medium;
             border: 10px solid red ;
+            padding: auto;
         }
         .container{
             width: 100%;
@@ -64,6 +124,8 @@
             justify-content: center;
             border: 3px solid rgb(151, 95, 74);
             color: black;
+            padding: 20px;
+            margin: 10px;
             
         }
         .item{
@@ -72,6 +134,7 @@
             background-color:lightslategrey;
             margin: 5px 10px;
             border: 3px solid brown;
+            padding: auto;
 
         }
         .container2{
@@ -84,14 +147,44 @@
             right:5px;
             left: 16px;
             color: rgb(133, 13, 13);
+            padding: auto;
         }
     
 
     </style>
 </head>
 <body>
-    
-    <div class="Header"><h1>Dynamic soften</h1>
+  
+  <div class="header">
+    <span> Dynamic Soften</span>
+  <div class="nav">
+    <ul>
+    <li><a href="#">Home</a> </li>
+    <li><a href="#">About</a> </li>
+    <li><a href="#">Services</a> </li>
+    <li><a href="#">Gallery</a> </li>
+    <li><a href="#">Categories</a> </li>
+    <li><a href="#">Contact</a> </li>
+   </ul>
+   </div>
+   
+   <br>
+   <div class="container">
+    <div class="gallary">
+        <img src="images/c.jpg"alt="c.jpg">
+    </div>
+    <div class="gallary">
+        <img src="images/2.jpg"alt="2.jpg">
+    </div>
+    <div class="gallary">
+        <img src="images/3.jpg"alt="3.jpg">
+    </div>
+    <div class="gallary">
+        <img src="images/4.jpg"alt="4.jpg">
+    </div>
+</div>
+<br>    
+    <div class="Header"><h1>Dynamic soften is softwere panal</h1>
         <br>
         <h2>Dynamic soften is a Softwere Company.Where, you can fulfil your Dreams in this Dynamic World .So,you have to Think Dynamic by joining with Us..!!</h2>
        
@@ -105,23 +198,11 @@
         <h3>Dynamic soften is the hub of softwere,you can get knowledge of Html,java, Python,Laravel,Css,Graphic & More you want...!!!</h3>
         <img src="image/2.jpg" alt="coming soon"><br>
     <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto aspernatur quisquam quas, ab, et repudiandae officiis debitis odio ipsam velit dolor. Modi mollgnam provident illum.</h1>
-    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consequuntur, libero qui doloribus ipsum maxime minima nisi modi sint illum saepe aliquid a non voluptatibus impedit itaque repellendus asperiores! Quaerat!</h1>
+   
     
     </div><br>
-    <button>Massage</button><br>
+    <button>Message</button><br>
     <div class="container">
-        <h1>Coming soon....!!!!</h1>
-        <br>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam eligendi corporis veritatis distinctio placeat, officiis nobis modi ad quam cum voluptates doloribus, eaque aut provident fuga suscipit libero! Iure.</h3>
-        <div class="item">
-            <h1>coming soon....!!!</h1>
-            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque magni nemo minus! In saepe eum molestias, corporis tempora perspiciatis autuas soluta veritatis reiciendis</h3>
-        <h1>Coming soon....!!</h1>
-        <br>
-        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ad, molestias in nobis, cumque dolorum, itaque provident recusandae numquam omnis dolor nam velit do
-        </h3>
-        <img src="image/a.jpg" alt="coming soon">
-        <br>
         <label for="submit"></label>
         <input type="submit" value="submit">
         <label for="Login"></label>
@@ -132,6 +213,66 @@
             <br>
         <div class="container2">$#</div><br>
         <br>
+        
+
+    <h2>FEED BACK </h2>    
+    <div class="container">    
+      <form action="https://www.google.com " autocomplete="off" method="POST">  
+
+        <div class="row">    
+          <div class="col-25">    
+            <label for="fname">First Name</label>    
+          </div>    
+          <div class="col-75">    
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+          </div>    
+        </div>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="lname">Last Name</label>    
+          </div>    
+          <div class="col-75">    
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+          </div>    
+        </div>    
+        <div class="row">    
+            <div class="col-25">    
+              <label for="email">Mail Id</label>    
+            </div>    
+            <div class="col-75">    
+              <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+            </div>    
+          </div>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="country">Country</label>    
+          </div>    
+          <div class="col-75">    
+            <select id="country" name="country">    
+                <option value="none">Select Country</option>    
+              <option value="australia">Australia</option>    
+              <option value="canada">Canada</option>    
+              <option value="usa">USA</option>    
+              <option value="russia">Russia</option>    
+              <option value="japan">Japan</option>    
+              <option value="india">India</option>    
+              <option value="china">China</option>    
+            </select>    
+          </div>    
+        </div>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="feed_back">Feed Back</label>    
+          </div>    
+          <div class="col-75">    
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+          </div>    
+        </div>    
+        <div class="row">    
+          <input type="submit" value="Submit">    
+        </div>    
+      </form>    
+    </div>    
         
 
 </body>
